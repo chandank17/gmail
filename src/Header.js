@@ -50,6 +50,7 @@ function Header() {
                 <IconButton>
                     <NotificationsIcon />
                 </IconButton>
+                 <span>Chandan</span>
 
                 <IconButton onClick={() => signOut()}>
                     <Avatar src={user?.photo} />
